@@ -54,5 +54,9 @@ button{
     border: transparent solid 2px;
     padding: 5px,10px;
     color: white;
-    border-radius: 5px;
+    border-radius: 5px; 
+}
+button:hover{
+    background-color: green;
+    border: 2px red;
 }
