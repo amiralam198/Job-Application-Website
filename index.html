@@ -5,8 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Welcome </h1>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Application
+                <span class="title_small">(W eb)</span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First Name</label>
+                  <input id="first_name"
+                  name="first_name"
+                  placeholder="Enter  first_name"/>
+                    </div> 
+                    <div class="form_control">
+                        <label for="last_name">Last Name</label>
+                  <input id="last_name"
+                  name="last_name"
+                  placeholder="Enter last_name"/>
+                    </div>
+                    <div class="form_control">
+                        <label for="email">Email</label>
+                  <input 
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email "/>
+                    </div> 
+                    <div class="form_control">
+                        <label for="Job_role">Job Role</label>
+                  <section>
+                    <option value="">Select Job Role</option>
+                    <option value="frontend">Frontend Devloper</option>
+                    
+                  </section>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
